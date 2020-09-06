@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Henny+Penny&family=Libre+Barcode+128+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Marck+Script&family=Mystery+Quest&display=swap');
+
 body {
+     background-image: url(pexels-photo-2411688.jpeg);
+     background-position: center;
+     background-size: contain;
 }
 
-main#container {
+main#container {        
+               background-color: rgba(51, 0, 0, 0.493);
 }
 
-h1.titulo {
+h1.titulo {    
+          font-family: 'Mystery Quest';
+          background-color: rgba(100, 14, 14, 0.336);
+          color: rgb(224, 167, 82);
+          text-shadow: 4px 4px 0 rgb(0, 0, 0); 
+          font-size: 40px;
 }
 
 p.frase {
+        font-family: 'henny Penny';
+        color: rgb(253, 114, 0);
+        text-shadow:2px 2px 0 rgb(0, 0, 0);
+        font-size: 25px;
 }
 
 p.autor {
+        font-family: 'Marck Script';
+        background-color: rgba(100, 14, 14, 0.336);
+        color: rgb(0, 0, 0);
+        text-shadow:1px 1px 0 rgba(224, 167, 82, 0.712);
+        font-size: 20px;
 }
